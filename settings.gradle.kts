@@ -1,4 +1,4 @@
-rootProject.name = "openshop"
+rootProject.name = "tooth"
 
 include("domain")
 include("service")

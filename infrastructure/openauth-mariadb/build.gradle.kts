@@ -20,13 +20,7 @@ allOpen {
     annotation("jakarta.persistence.Embeddable")
 }
 
-//noArg {
-//    annotation("jakarta.persistence.Entity")
-//    annotation("jakarta.persistence.MappedSuperclass")
-//    annotation("jakarta.persistence.Embeddable")
-//}
-
-group = "com.freshtuna.openshop"
+group = "com.freshtuna.tooth"
 version = "1.0-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
@@ -36,7 +30,7 @@ repositories {
 
 dependencies {
     implementation(project(":domain"))
-
+    implementation(project(":common"))
 
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.mariadb.jdbc:mariadb-java-client")
